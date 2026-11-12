@@ -20,9 +20,9 @@ jobs:
           ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
-          
+
     scan-pgvector-image:
-    name: scan pgvector:pg16
+    name: scan pgvector
     runs-on: ubuntu-26.04
     steps:
       - name: Checkout code
