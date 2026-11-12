@@ -21,7 +21,7 @@ jobs:
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
 
-    scan-pgvector-image:
+  scan-pgvector-image:
     name: scan pgvector
     runs-on: ubuntu-26.04
     steps:
